@@ -1,0 +1,38 @@
+.home{
+    background-image: url("../assets/homebg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    >div{
+        max-width: var(--container-maxWidth);
+        background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.5), transparent);
+        padding: 20px;
+        margin: auto;
+        min-height: calc(100vh - 3rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        font-family: sans-serif;
+        h1{
+            font-size: 4rem;
+            span{
+                color: orange;
+            }
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        a{
+            background-color: orange;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: rgb(178, 119, 8);
+        }
+    }
+}
